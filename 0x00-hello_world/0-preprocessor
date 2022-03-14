@@ -1,2 +1,2 @@
 #!/bin/bash
-int main(void) { printf("Hello, World!");}
+gcc -E $CFILE -o c
