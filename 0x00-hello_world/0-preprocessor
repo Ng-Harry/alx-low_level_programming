@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
  gcc -E main.c
+=======
+gcc -E $CFILE -o c
+>>>>>>> 1f5fa73de7b0ecc8e5dfacc32fabf3ff5eaf2d4f
