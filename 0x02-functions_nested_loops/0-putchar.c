@@ -1,8 +1,13 @@
- 1   2   // A first program in C.
- 3   #include <stdio.h>
- 4
- 5   // function main begins program execution
- 6   int main( void )
- 7   {
- 8      printf( "Welcome to C!\n" );
- 9   } // end function main
+#include <unistd.h>
+
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
